@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    display: inline;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.hero {
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content {
+    background-color: rgba(62, 60, 60, 0.5); /* Semi-transparent black overlay */
+    padding: 20px;
+    border-radius: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.car-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.car {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.car img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Testimonial slider styles */
+#testimonials {
+    text-align: center;
+}
+
+.testimonial-slider {
+    display: flex;
+    overflow-x: hidden;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.testimonial {
+    flex: 0 0 auto;
+    width: calc(100% - 40px); /* Adjust the width as needed */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+    margin: 0 auto; /* Center the testimonial */
+}
+
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.slider-arrows {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Hide left arrow initially */
+.slider-arrows button:first-child {
+    display: none;
+}
+
+/* Style for the Two Wheelers section */
+#TwoWheelers {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.bike-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.TwoWheelers {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.TwoWheelers img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
