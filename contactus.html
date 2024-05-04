@@ -57,12 +57,12 @@
 <body>
     <header>
         <div class="container">
-            <a href="index.html" style="text-decoration: none; color: azure ;"><h1>GoGoRides</h1></a>
+            <a href="D:\College\College III year\3(2)\MWA\Project\index.html" style="text-decoration: none; color: azure ;"><h1>GoGoRides</h1></a>
             <nav>
                 <a href="index.html">Home</a>
                 <a href="aboutus.html">About Us</a>
                 <a href="#" onclick="scrollToCars()">Car Rental</a>
-                <a href="#">Bike Rental</a>
+                <a href="#" onclick="scrollToTwoWheelers()">Bike Rental</a>
                 <a href="contactus.html" class="active">Contact Us</a>
             </nav>
         </div>
@@ -91,5 +91,25 @@
             <p>&copy; 2024 GoGoRides. All rights reserved.</p>
         </div>
     </footer>
+    <script>
+        function scrollToCars() {
+        window.location.href = "index.html#cars";
+        setTimeout(function() {
+        window.scrollTo({
+            top: document.getElementById("cars").offsetTop,
+            behavior: 'smooth'
+        });
+    }, 1000); // Adjust the delay as needed to ensure the page loads before scrolling
+}
+function scrollToTwoWheelers() {
+        window.location.href = "index.html#TwoWheelers";
+        setTimeout(function() {
+        window.scrollTo({
+            top: document.getElementById("TwoWheelers").offsetTop,
+            behavior: 'smooth'
+        });
+    }, 1000); // Adjust the delay as needed to ensure the page loads before scrolling
+}
+    </script>
 </body>
 </html>
